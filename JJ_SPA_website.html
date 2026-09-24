@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="JJ SPA – Body Massage & Relaxation. Male & Female Service with Home & Hotel Doorstep booking.">
+<title>JJ SPA – Body Massage & Relaxation</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#0d0d0d;color:#f5f1e8;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(13,13,13,.95);border-bottom:1px solid #2d261b}
+nav{height:70px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:25px;font-weight:800;letter-spacing:1px;color:#d7b56d}
+.navlinks{display:flex;gap:25px;color:#ddd;font-size:14px}
+.hero{min-height:78vh;display:flex;align-items:center;text-align:center;background:radial-gradient(circle at center,#3b2c19 0,#17130e 35%,#0d0d0d 72%);padding:70px 0}
+.hero h1{font-size:clamp(42px,8vw,78px);color:#d7b56d;letter-spacing:2px}
+.hero h2{font-size:clamp(22px,4vw,36px);margin:10px 0;color:#fff}
+.hero p{max-width:650px;margin:18px auto;color:#cfc9bd;font-size:18px}
+.btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.btn{padding:14px 24px;border-radius:30px;font-weight:bold;display:inline-block;transition:.2s}
+.call{background:#d7b56d;color:#111}.wa{background:#218b55;color:white}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+section{padding:70px 0}
+.title{text-align:center;margin-bottom:35px}
+.title h2{font-size:35px;color:#d7b56d}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#171717;border:1px solid #332b20;border-radius:18px;padding:30px;text-align:center}
+.icon{font-size:38px;margin-bottom:12px}.card h3{margin-bottom:8px;color:#fff}.card p{color:#aaa}
+.locations{background:#14110d}
+.location-list{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.location{border:1px solid #5a472b;color:#e2c483;padding:12px 18px;border-radius:25px;background:#1a160f}
+.booking{background:linear-gradient(135deg,#21190e,#0f0f0f);text-align:center}
+.phone{font-size:clamp(27px,5vw,45px);color:#d7b56d;font-weight:800;margin:18px 0}
+footer{padding:25px;text-align:center;color:#888;border-top:1px solid #2b261f;font-size:13px}
+@media(max-width:700px){.navlinks{display:none}.cards{grid-template-columns:1fr}.hero{min-height:72vh;padding:50px 0}section{padding:55px 0}}
+</style>
+</head>
+<body>
+<header>
+<nav class="container">
+<a class="logo" href="#">JJ SPA</a>
+<div class="navlinks">
+<a href="#services">Services</a><a href="#locations">Locations</a><a href="#booking">Booking</a>
+</div>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<div class="container">
+<h1>JJ SPA</h1>
+<h2>Body Massage &amp; Relaxation</h2>
+<p>Relax, refresh and take some time for yourself with convenient doorstep service.</p>
+<div class="btns">
+<a class="btn call" href="tel:+917872401452">☎ Call Now</a>
+<a class="btn wa" href="https://wa.me/917872401452?text=Hello%20JJ%20SPA%2C%20I%20want%20to%20book%20a%20service.">💬 WhatsApp Booking</a>
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<div class="title"><h2>Our Services</h2></div>
+<div class="cards">
+<div class="card"><div class="icon">🌿</div><h3>Body Massage</h3><p>Relaxation-focused massage service in a comfortable setting.</p></div>
+<div class="card"><div class="icon">👩‍🦰👨</div><h3>Male &amp; Female Service</h3><p>Services available for both male and female clients.</p></div>
+<div class="card"><div class="icon">🏨</div><h3>Doorstep Service</h3><p>Home &amp; hotel doorstep service available for convenient booking.</p></div>
+</div>
+</div>
+</section>
+
+<section id="locations" class="locations">
+<div class="container">
+<div class="title"><h2>Our Locations</h2></div>
+<div class="location-list">
+<span class="location">Keshtopur</span>
+<span class="location">Baguihati</span>
+<span class="location">New Town</span>
+<span class="location">Chinar Park</span>
+</div>
+</div>
+</section>
+
+<section id="booking" class="booking">
+<div class="container">
+<div class="title"><h2>Book Your Service</h2></div>
+<p>Call or WhatsApp us for booking and availability.</p>
+<div class="phone">+91 7872401452</div>
+<div class="btns">
+<a class="btn call" href="tel:+917872401452">☎ Call &amp; Book</a>
+<a class="btn wa" href="https://wa.me/917872401452?text=Hello%20JJ%20SPA%2C%20I%20want%20to%20book%20a%20service.">💬 WhatsApp</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>© 2026 JJ SPA – Body Massage &amp; Relaxation</footer>
+</body>
+</html>
